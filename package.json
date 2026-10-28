@@ -1,0 +1,47 @@
+{
+  "name": "location-pipeline",
+  "version": "1.0.0",
+  "description": "Production-ready GeoNames Location Data Ingestion Pipeline",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lookup": "tsx src/index.ts lookup",
+    "seed": "tsx src/index.ts seed",
+    "refresh": "tsx src/index.ts refresh",
+    "prune": "tsx src/index.ts prune",
+    "import:full": "tsx src/index.ts import --mode full",
+    "import:country": "tsx src/index.ts import --mode country",
+    "import:cities": "tsx src/index.ts import --mode country --country IN",
+    "schedule": "tsx src/index.ts schedule",
+    "status": "tsx src/index.ts status"
+  },
+  "keywords": [
+    "geonames",
+    "location",
+    "pipeline",
+    "ingestion",
+    "typescript"
+  ],
+  "author": "",
+  "license": "CC-BY-4.0",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-cron": "^3.0.3",
+    "pino": "^9.6.0",
+    "undici": "^7.3.0",
+    "unzipper": "^0.12.3",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "@types/node-cron": "^3.0.11",
+    "@types/unzipper": "^0.10.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3",
+    "vitest": "^3.0.5"
+  }
+}

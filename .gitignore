@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# Pipeline data & exports
+data/locations/**/*.json
+data/locations/**/*.tmp
+data/locations/.lock
+data/locations/.run-state.json
+data/downloads/
+
+# Logs
+*.log
+
+# Environment
+.env
+!.env.example

@@ -1,0 +1,5 @@
+#ISO	ISO3	ISO-Numeric	fips	Country	Capital	Area(in sq km)	Population	Continent	tld	CurrencyCode	CurrencyName	Phone	Postal Format	Postal Regex	Languages	geonameid	neighbours	EquivalentFipsCode
+IN	IND	356	IN	India	New Delhi	3287590	1352617328	AS	.in	INR	Rupee	91	######	^\\d{6}$	en-IN,hi,bn,te,mr,ta,ur,gu,ml,kn,or,pa,as,bho	1269750	CN,NP,MM,BT,PK,BD	
+US	USA	840	US	United States	Washington	9629091	327167434	NA	.us	USD	Dollar	1	#####-####	^\\d{5}(-\\d{4})?$	en-US,es-US,haw,fr	6252001	CA,MX,CU	
+GB	GBR	826	UK	United Kingdom	London	244820	66488991	EU	.uk	GBP	Pound	44	@# #@@|@## #@@|@@# #@@|@@## #@@|@#@ #@@|@@#@ #@@|GIR0AA	^(([A-Z]\\d[A-Z\\d]?|[A-Z]{2}\\d[A-Z\\d]?)\\s?\\d[A-Z]{2})$	en-GB,cy,gd	2635167	IE	
+CH	CHE	756	SZ	Switzerland	Bern	41290	8525611	EU	.ch	CHF	Franc	41	####	^\\d{4}$	de-CH,fr-CH,it-CH,rm	2658434	DE,FR,IT,LI,AT	

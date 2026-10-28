@@ -1,0 +1,5 @@
+IN.07	National Capital Territory of Delhi	National Capital Territory of Delhi	1273293
+IN.40	Telangana	Telangana	12588998
+US.NY	New York	New York	5128638
+GB.ENG	England	England	6269131
+CH.ZH	Zurich	Zurich	2657895

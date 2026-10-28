@@ -1,0 +1,10 @@
+1269843	Hyderabad	Hyderabad	Hyderabad,Haiderabad	17.38405	78.45636	P	PPLA	IN		40				6809970		515	Asia/Kolkata	2024-01-15
+5128581	New York City	New York City	NYC,New York	40.71427	-74.00597	P	PPLA	US		NY				8804190		10	America/New_York	2024-02-01
+2643743	London	London	London,Londra	51.50853	-0.12574	P	PPLC	GB		ENG				7556900		25	Europe/London	2024-03-10
+1273293	National Capital Territory of Delhi	National Capital Territory of Delhi		28.6667	77.2167	A	ADM1	IN		07				16787941		216	Asia/Kolkata	2023-11-20
+1269844	Small Village	Small Village		17.1000	78.2000	P	PPL	IN		40				0		400	Asia/Kolkata	2024-01-01
+2657896	Zürich	Zurich	Zurich,Zuerich	47.36667	8.55	P	PPLA	CH		ZH				341730		408	Europe/Zurich	2024-01-20
+INVALID_LINE_LESS_COLUMNS	OnlyTwoColumns
+9999991	Invalid Latitude City	Invalid Latitude City		150.000	77.000	P	PPL	IN		07				50000			Asia/Kolkata	2024-01-01
+9999992	Invalid Country Code	Invalid Country Code		20.000	77.000	P	PPL	123		07				50000			Asia/Kolkata	2024-01-01
+1269843	Hyderabad Duplicate	Hyderabad Duplicate		17.38405	78.45636	P	PPLA	IN		40				6809970		515	Asia/Kolkata	2024-01-15
